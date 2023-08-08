@@ -1,0 +1,27 @@
+body{
+      font-size: 18px;
+      font-family: 'Times New Roman', Verdana, sans-serif;
+      background-color: hsl(24, 71%, 73%);
+}
+img {
+      height: 10em;
+      width: 10em;
+      border-radius: 50%;
+}
+h1, h2 {
+      font-weight: 800px;
+      color: hsl(327, 69%, 82%);
+
+}
+p {
+      color: hsl(32, 62%, 38%);
+}
+li {
+      color: hsl(192, 72%, 39%);
+}
+
+a {
+      font-family: 'Times New Roman', sans-serif;
+      font-size: 20px;
+      color: hsl(0, 70%, 41%);
+}
