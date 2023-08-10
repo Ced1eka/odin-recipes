@@ -1,27 +1,78 @@
-body{
-      font-size: 18px;
-      font-family: 'Times New Roman', Verdana, sans-serif;
-      background-color: hsl(24, 71%, 73%);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
 }
-img {
-      height: 10em;
-      width: 10em;
-      border-radius: 50%;
-}
-h1, h2 {
-      font-weight: 800px;
-      color: hsl(327, 69%, 82%);
 
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
 }
-p {
-      color: hsl(32, 62%, 38%);
+
+body {
+  font-size: 18px;
+  font-family: "Times New Roman", Verdana, sans-serif;
+  background-color: hsl(24, 71%, 73%);
 }
-li {
-      color: hsl(192, 72%, 39%);
+
+.container {
+  width: 400px;
+  border: 1px solid pink;
+  margin: 0px auto;
+  text-align: center;
+}
+/* .recipe{
+      border: 1px solid yellow;
+      margin: 10px auto;
+      width: 300px;
+} */
+img {
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+h1,
+h2 {
+  font-weight: 800px;
+  color: hsl(271, 75%, 26%);
+  margin: auto 10px;
+  border: 1px solid rebeccapurple;
+}
+h1 {
+  text-align: center;
 }
 
 a {
-      font-family: 'Times New Roman', sans-serif;
-      font-size: 20px;
-      color: hsl(0, 70%, 41%);
+  display: block;
+  border: 1px solid red;
+}
+p {
+  color: hsl(32, 62%, 38%);
+  border: 1px solid rgb(31, 148, 148);
+  margin: 5px 10px;
+
+
+}
+li {
+  color: hsl(192, 72%, 39%);
+}
+
+a {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 20px;
+  color: hsl(0, 70%, 41%);
+}
+a.button {
+      background-color: rgb(48, 49, 49);
+      color: red;
+      margin: 10px auto;
+      text-align: center;
+      display: inline-block;
+      width: 200px;
 }
